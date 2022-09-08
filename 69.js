@@ -12,4 +12,4 @@ newPost(firstPost);
 
 const postFirst = newPost(firstPost);
 
-console.log();
+console.log(postFirst);
