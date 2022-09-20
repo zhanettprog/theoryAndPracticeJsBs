@@ -1,7 +1,3 @@
-let val = 4;
+const value = 11;
 
-if (val < 5) {
-  val += 20;
-}
-
-console.log(val);
+console.log(value >= 0 ? value : -value);
