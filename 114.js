@@ -1,6 +1,9 @@
-const myArray = [1, -2, 3];
-console.log(myArray);
+const myObject = {
+  x: 10,
+  y: true,
+  z: "abc",
+};
 
-myArray.forEach((el) => console.log(el * 2));
-
-console.log(myArray);
+console.log(myObject.x);
+console.log(myObject.y);
+console.log(myObject.z);
