@@ -1,9 +1,5 @@
-let val = 45;
+const myArray = [true, "abc", 10];
 
-if (val < 5) {
-  val += 20;
-} else {
-  val -= 20;
-}
-
-console.log(val);
+console.log(myArray[0]);
+console.log(myArray[1]);
+console.log(myArray[2]);
