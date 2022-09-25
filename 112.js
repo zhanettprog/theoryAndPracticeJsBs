@@ -1,3 +1,11 @@
-const value = 0;
-
-console.log(value >= 0 ? value : -value);
+let i = 0;
+console.log(i);
+i++;
+console.log(i);
+i++;
+console.log(i);
+i++;
+console.log(i);
+i++;
+console.log(i);
+i++;
