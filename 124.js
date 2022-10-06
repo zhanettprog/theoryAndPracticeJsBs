@@ -1,10 +1,9 @@
-const myArray = [-6, 2, 11];
-console.log(myArray);
+const myObject = {
+  x: 10,
+  y: true,
+  z: "abc",
+};
 
-const newArray = myArray.map((el) => {
-  return el * 3;
+Object.keys(myObject).forEach((key) => {
+  console.log(key, myObject[key]);
 });
-
-console.log(newArray);
-
-console.log(myArray);
