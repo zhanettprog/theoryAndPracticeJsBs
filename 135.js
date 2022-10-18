@@ -1,9 +1,10 @@
-const myObject = {
-  x: -10,
-  y: false,
-  z: "abc",
-};
+moduleTwo.js;
 
-Object.values(myObject).forEach((value) => {
-  console.log(value);
-});
+import sumNumbers from "./moduleOne.mjs";
+
+const res1 = sumNumbers(10, 2);
+console.log(res1);
+
+const res2 = sumNumbers(5, 10);
+console.log(res2);
+console.log(myName);
