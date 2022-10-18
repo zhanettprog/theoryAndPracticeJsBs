@@ -1,5 +1,8 @@
-const myArray = [false, -5, "helloc", null];
+moduleOne.js;
 
-for (const key in myArray) {
-  console.log(myArray[key]);
-}
+const myName = "Zhanett";
+
+const sum = (a, b) => a + b;
+
+console.log(myName);
+export default sum;
