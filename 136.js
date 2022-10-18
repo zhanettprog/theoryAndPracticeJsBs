@@ -1,6 +1,5 @@
-let i = -10;
+moduleOne.js;
 
-do {
-  console.log(i);
-  i++;
-} while (i < 5);
+const sum = (a, b) => a + b;
+
+export default sum;
