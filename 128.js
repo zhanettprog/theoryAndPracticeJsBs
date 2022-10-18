@@ -1,5 +1,5 @@
-const myString = "Hello world";
+moduleOne.js;
 
-for (const letter of myString) {
-  console.log(letter);
-}
+const myName = () => {
+  console.log("ZHanett");
+};
