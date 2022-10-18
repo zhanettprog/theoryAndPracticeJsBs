@@ -1,5 +1,9 @@
-const myArray = [true, 27, "abc", null];
+moduleTwo.js;
 
-for (const key in myArray) {
-  console.log(myArray[key]);
-}
+import sumNumbers from "./moduleOne.mjs";
+
+const res1 = sumNumbers(10, 2);
+console.log(res1);
+
+const res2 = sumNumbers(5, 10);
+console.log(res2);
