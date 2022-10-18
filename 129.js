@@ -1,6 +1,6 @@
-let i = 10;
+moduleTwo.js;
 
-do {
-  console.log(i);
-  i++;
-} while (i < 5);
+export default myName;
+
+import printMyName from "./moduleOne.js";
+printMyName();
