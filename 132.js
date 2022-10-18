@@ -1,5 +1,5 @@
-const myArray = ["first", "second", "third"];
+moduleOne.js;
 
-myArray.forEach((element, index) => {
-  console.log(element, index);
-});
+const sum = (a, b) => a + b;
+
+export default sum;
