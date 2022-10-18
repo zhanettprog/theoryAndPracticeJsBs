@@ -1,9 +1,6 @@
-const myObject = {
-  x: 19,
-  y: true,
-  z: "abc",
-};
+moduleOne.js;
 
-console.log(myObject.x);
-console.log(myObject.y);
-console.log(myObject.z);
+const sum = (a, b) => a + b;
+
+export default sum;
+
