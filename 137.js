@@ -1,5 +1,6 @@
-const myString = "Hello";
+moduleTwo.js;
 
-for (const letter of myString) {
-  console.log(letter);
-}
+import sumNumbers from "./moduleOne.mjs";
+
+const res = sumNumbers(10, 2);
+console.log(res);
